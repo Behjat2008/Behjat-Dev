@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Muhammad Behjat — Automation Developer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">M<span>B</span></div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact" class="nav-cta">Contact</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" onclick="toggleNav()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">M<span>B</span></div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact" class="nav-cta">Contact</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" onclick="toggleNav()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-content">
+    <div class="hero-badge">🤖 Available for opportunities</div>
+    <h1 class="hero-title">Muhammad<br><span class="accent-text">Behjat</span></h1>
+    <p class="hero-sub">Automation Developer specializing in AI agents and workflow automation. Building scalable, impactful tech solutions with N8n, React & Python.</p>
+    <div class="hero-stats">
+      <div class="stat-item"><span class="stat-num">1K+</span><span class="stat-label">Users Served</span></div>
+      <div class="stat-item"><span class="stat-num">7+</span><span class="stat-label">Projects Built</span></div>
+      <div class="stat-item"><span class="stat-num">5+</span><span class="stat-label">Tech Skills</span></div>
+    </div>
+    <div class="hero-actions">
+      <a href="#projects" class="btn-primary">View My Work →</a>
+      <a href="https://www.linkedin.com/in/muhammadbehjat" target="_blank" class="social-btn linkedin">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        LinkedIn
+      </a>
+      <a href="https://github.com/Behjat2008" target="_blank" class="social-btn github">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+        GitHub
+      </a>
+    </div>
+  </div>
+  <div class="hero-photo-wrap">
+    <div class="hero-photo-ring">
+      <div class="hero-photo-inner">
+        <img src="/portfolio/profile.png" alt="Muhammad Behjat" />
+      </div>
+    </div>
+    <div class="hero-photo-badge">
+      <span class="badge-num">1K+</span> Users Served
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-grid">
+    <div class="about-card reveal">
+      <div class="about-avatar"><img src="data:image/jpeg;base64,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" alt="Muhammad Behjat" /></div>
+      <div class="about-name">Muhammad Behjat</div>
+      <div class="about-role">Automation Developer</div>
+      <div class="info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Karachi, Sindh, Pakistan</div>
+      <div class="info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>muhammadbehjat2008@gmail.com</div>
+      <div class="info-row"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>linkedin.com/in/muhammadbehjat</div>
+    </div>
+    <div class="reveal">
+      <div class="section-label">About Me</div>
+      <h2 class="section-title">Turning Ideas into Intelligent Systems</h2>
+      <p class="about-text">I'm an Automation Developer focused on building AI-powered agents and efficient workflow systems. I've built and deployed automation pipelines serving over 1,000 users using N8n, React, and Python — always aiming for scalable, efficient, and genuinely impactful solutions.</p>
+      <div class="about-highlights">
+        <div class="highlight-item"><div class="hi-icon">🤖</div><div><div class="hi-title">AI Agent Development</div><div class="hi-sub">Built and deployed agents with N8n serving 1K+ users</div></div></div>
+        <div class="highlight-item"><div class="hi-icon">⚡</div><div><div class="hi-title">Workflow Automation</div><div class="hi-sub">Streamlining complex processes with custom automation</div></div></div>
+        <div class="highlight-item"><div class="hi-icon">🌐</div><div><div class="hi-title">Web Development</div><div class="hi-sub">React.js applications with clean, responsive UI</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-label reveal">Technical Skills</div>
+  <h2 class="section-title reveal">My Toolkit</h2>
+  <p class="section-desc reveal">Technologies and tools I work with to build powerful, scalable solutions.</p>
+  <div class="skills-grid">
+    <div class="skill-card reveal"><span class="skill-icon">⚙️</span><div class="skill-name">N8n</div><div class="skill-level">Automation</div><div class="skill-bar"><div class="skill-fill" data-w="90"></div></div></div>
+    <div class="skill-card reveal"><span class="skill-icon">⚛️</span><div class="skill-name">React.js</div><div class="skill-level">Frontend</div><div class="skill-bar"><div class="skill-fill" data-w="85"></div></div></div>
+    <div class="skill-card reveal"><span class="skill-icon">🐍</span><div class="skill-name">Python</div><div class="skill-level">Backend/AI</div><div class="skill-bar"><div class="skill-fill" data-w="80"></div></div></div>
+    <div class="skill-card reveal"><span class="skill-icon">🤖</span><div class="skill-name">Agentic AI</div><div class="skill-level">AI Workflows</div><div class="skill-bar"><div class="skill-fill" data-w="88"></div></div></div>
+    <div class="skill-card reveal"><span class="skill-icon">🌐</span><div class="skill-name">JavaScript</div><div class="skill-level">Core Web</div><div class="skill-bar"><div class="skill-fill" data-w="82"></div></div></div>
+    <div class="skill-card reveal"><span class="skill-icon">🎨</span><div class="skill-name">Tailwind CSS</div><div class="skill-level">Styling</div><div class="skill-bar"><div class="skill-fill" data-w="85"></div></div></div>
+    <div class="skill-card reveal"><span class="skill-icon">🏷️</span><div class="skill-name">HTML5</div><div class="skill-level">Markup</div><div class="skill-bar"><div class="skill-fill" data-w="92"></div></div></div>
+    <div class="skill-card reveal"><span class="skill-icon">💅</span><div class="skill-name">CSS3</div><div class="skill-level">Styling</div><div class="skill-bar"><div class="skill-fill" data-w="88"></div></div></div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="section-label reveal">Experience</div>
+  <h2 class="section-title reveal">What I've Built</h2>
+  <div class="timeline">
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <div class="exp-card">
+        <div class="exp-header">
+          <div><div class="exp-role">Automation Developer</div><div class="exp-company">Independent / Freelance</div></div>
+          <span class="exp-date">2023 – Present</span>
+        </div>
+        <p class="exp-desc">Designed and deployed AI agent systems and workflow automation pipelines serving 1,000+ users. Leveraged N8n for complex multi-step automations, integrated APIs and external services, and built React-based frontends to deliver seamless user experiences.</p>
+        <div class="exp-tags"><span class="exp-tag">N8n</span><span class="exp-tag">AI Agents</span><span class="exp-tag">Python</span><span class="exp-tag">React.js</span><span class="exp-tag">API Integration</span></div>
+      </div>
+    </div>
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <div class="exp-card">
+        <div class="exp-header">
+          <div><div class="exp-role">Frontend Developer</div><div class="exp-company">Personal Projects</div></div>
+          <span class="exp-date">2021 – 2023</span>
+        </div>
+        <p class="exp-desc">Built multiple web projects including image search apps, landing pages, interactive tools, and UI components. Developed strong proficiency in React.js, JavaScript, and CSS frameworks through hands-on project-based learning.</p>
+        <div class="exp-tags"><span class="exp-tag">React.js</span><span class="exp-tag">JavaScript</span><span class="exp-tag">Tailwind CSS</span><span class="exp-tag">HTML5</span><span class="exp-tag">CSS3</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="section-label reveal">Education</div>
+  <h2 class="section-title reveal">Academic Background</h2>
+  <div class="edu-grid">
+    <div class="edu-card reveal"><span class="edu-icon">🏫</span><div class="edu-degree">Intermediate — Pre-Engineering</div><div class="edu-field">Science & Engineering</div><div class="edu-institute">Adamjee Government Science College</div><div class="edu-date">Aug 2025 – May 2027</div></div>
+    <div class="edu-card reveal"><span class="edu-icon">🗣️</span><div class="edu-degree">Diploma of Education</div><div class="edu-field">English Language & Literature</div><div class="edu-institute">Domino English Learning Centre</div><div class="edu-date">May 2025 – Oct 2025</div></div>
+    <div class="edu-card reveal"><span class="edu-icon">📚</span><div class="edu-degree">Matriculation</div><div class="edu-field">Computer Science</div><div class="edu-institute">Jamaran Institute of Quranic Sciences</div><div class="edu-date">Aug 2019 – Apr 2025</div></div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-label reveal">Projects</div>
+  <h2 class="section-title reveal">Selected Work</h2>
+  <div class="projects-grid">
+
+    <div class="project-card reveal">
+      <div class="project-preview" style="background:linear-gradient(135deg,#0a0f2c,#1a3a8f22)">
+        <div class="project-preview-bg"></div><div class="project-preview-pattern"></div>
+        <div class="project-preview-content"><span class="project-preview-icon">🔍</span><span class="project-preview-label">IMAGE SEARCH APP</span></div>
+        <div class="project-preview-live">LIVE</div>
+      </div>
+      <div class="project-header"><div class="project-num">01</div><div class="project-links">
+        <a href="https://image-search-app-psi-azure.vercel.app/" target="_blank" class="project-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>Live</a>
+        <a href="https://github.com/Behjat2008/Javascirpt/tree/main/Project_Javascript/API_PROJECT" target="_blank" class="project-link"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>Code</a>
+      </div></div>
+      <div class="project-body"><div class="project-title">Image Search App</div><p class="project-desc">A dynamic image search application using JavaScript API integration to fetch and display high-quality images in real-time.</p><div class="project-stack"><span class="stack-tag">HTML</span><span class="stack-tag">CSS</span><span class="stack-tag">JavaScript</span><span class="stack-tag">API</span></div></div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-preview" style="background:linear-gradient(135deg,#0f172a,#2563eb22)">
+        <div class="project-preview-bg"></div><div class="project-preview-pattern"></div>
+        <div class="project-preview-content"><span class="project-preview-icon">📬</span><span class="project-preview-label">CONTACT PAGE</span></div>
+        <div class="project-preview-live">LIVE</div>
+      </div>
+      <div class="project-header"><div class="project-num">02</div><div class="project-links">
+        <a href="https://contactuspage-beta.vercel.app/" target="_blank" class="project-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>Live</a>
+        <a href="https://github.com/Behjat2008/Reacct.js-Project/tree/main/Contact-us-Page" target="_blank" class="project-link"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>Code</a>
+      </div></div>
+      <div class="project-body"><div class="project-title">Contact Us Page</div><p class="project-desc">A clean, fully responsive contact page built with React.js and Tailwind CSS featuring form validation and smooth UX.</p><div class="project-stack"><span class="stack-tag">React.js</span><span class="stack-tag">Tailwind CSS</span></div></div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-preview" style="background:linear-gradient(135deg,#0a0f2c,#f0b42922)">
+        <div class="project-preview-bg"></div><div class="project-preview-pattern"></div>
+        <div class="project-preview-content"><span class="project-preview-icon">🔐</span><span class="project-preview-label">PASSWORD GENERATOR</span></div>
+        <div class="project-preview-live">LIVE</div>
+      </div>
+      <div class="project-header"><div class="project-num">03</div><div class="project-links">
+        <a href="https://password-generator-seven-rouge.vercel.app/" target="_blank" class="project-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>Live</a>
+        <a href="https://github.com/Behjat2008/React.js/tree/main/05passwordGenerator" target="_blank" class="project-link"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>Code</a>
+      </div></div>
+      <div class="project-body"><div class="project-title">Password Generator</div><p class="project-desc">A secure, customizable password generator built with React — with control over length, symbols, numbers, and case.</p><div class="project-stack"><span class="stack-tag">React.js</span><span class="stack-tag">CSS</span></div></div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-preview" style="background:linear-gradient(135deg,#0a0f2c,#22223b)">
+        <div class="project-preview-bg"></div><div class="project-preview-pattern"></div>
+        <div class="project-preview-content"><span class="project-preview-icon">👟</span><span class="project-preview-label">NIKE LANDING PAGE</span></div>
+        <div class="project-preview-live">LIVE</div>
+      </div>
+      <div class="project-header"><div class="project-num">04</div><div class="project-links">
+        <a href="https://nikelandingpage-roan.vercel.app/" target="_blank" class="project-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>Live</a>
+        <a href="https://github.com/Behjat2008/Reacct.js-Project/tree/main/Nike-Landing-Page" target="_blank" class="project-link"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>Code</a>
+      </div></div>
+      <div class="project-body"><div class="project-title">Nike Landing Page</div><p class="project-desc">A sleek, brand-accurate Nike shoes landing page with modern design, animations, and a fully responsive layout.</p><div class="project-stack"><span class="stack-tag">React.js</span><span class="stack-tag">Tailwind CSS</span></div></div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-preview" style="background:linear-gradient(135deg,#0f172a,#06b6d422)">
+        <div class="project-preview-bg"></div><div class="project-preview-pattern"></div>
+        <div class="project-preview-content"><span class="project-preview-icon">🌗</span><span class="project-preview-label">THEME SWITCHER</span></div>
+        <div class="project-preview-live">LIVE</div>
+      </div>
+      <div class="project-header"><div class="project-num">05</div><div class="project-links">
+        <a href="https://theme-switcher-zeta.vercel.app/" target="_blank" class="project-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>Live</a>
+        <a href="https://github.com/Behjat2008/React.js/tree/main/09themeSwitcher" target="_blank" class="project-link"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>Code</a>
+      </div></div>
+      <div class="project-body"><div class="project-title">Theme Switcher</div><p class="project-desc">An elegant theme switcher demonstrating React state management and CSS variable-based theming.</p><div class="project-stack"><span class="stack-tag">React.js</span><span class="stack-tag">Tailwind CSS</span></div></div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-preview" style="background:linear-gradient(135deg,#0a0f2c,#7c3aed22)">
+        <div class="project-preview-bg"></div><div class="project-preview-pattern"></div>
+        <div class="project-preview-content"><span class="project-preview-icon">⌨️</span><span class="project-preview-label">KEY IDENTIFIER</span></div>
+        <div class="project-preview-live">LIVE</div>
+      </div>
+      <div class="project-header"><div class="project-num">06</div><div class="project-links">
+        <a href="https://key-identifier.vercel.app/" target="_blank" class="project-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>Live</a>
+        <a href="https://github.com/Behjat2008/Javascirpt/tree/main/Project_Javascript/Key_Identifier" target="_blank" class="project-link"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>Code</a>
+      </div></div>
+      <div class="project-body"><div class="project-title">Key Identifier</div><p class="project-desc">An interactive keyboard key identifier that displays key names, codes, and properties in real-time on every keystroke.</p><div class="project-stack"><span class="stack-tag">React.js</span><span class="stack-tag">Tailwind</span></div></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-inner">
+    <div class="contact-header reveal">
+      <div class="section-label">Get In Touch</div>
+      <h2 class="section-title">Let's Work Together</h2>
+      <p class="section-desc" style="margin:0 auto;text-align:center;">Have a project in mind or want to discuss automation opportunities? Send me a message — I'll reply within 24 hours.</p>
+    </div>
+    <div class="contact-layout">
+      <div class="contact-info-card reveal">
+        <div class="contact-info-title">Contact Info</div>
+        <p class="contact-info-sub">Reach out through any of these channels and I'll respond as quickly as possible.</p>
+        <a href="mailto:muhammadbehjat2008@gmail.com" class="contact-info-item">
+          <div class="ci-icon">📧</div><div><div class="ci-label">Email</div><div class="ci-value">muhammadbehjat2008@gmail.com</div></div>
+        </a>
+        <a href="https://www.linkedin.com/in/muhammadbehjat" target="_blank" class="contact-info-item">
+          <div class="ci-icon">💼</div><div><div class="ci-label">LinkedIn</div><div class="ci-value">in/muhammadbehjat</div></div>
+        </a>
+        <a href="https://github.com/Behjat2008" target="_blank" class="contact-info-item">
+          <div class="ci-icon">🐙</div><div><div class="ci-label">GitHub</div><div class="ci-value">Behjat2008</div></div>
+        </a>
+        <a href="https://www.instagram.com/behjat_985/" target="_blank" class="contact-info-item">
+          <div class="ci-icon">📸</div><div><div class="ci-label">Instagram</div><div class="ci-value">@behjat_985</div></div>
+        </a>
+        <div class="contact-info-item">
+          <div class="ci-icon">📍</div><div><div class="ci-label">Location</div><div class="ci-value">Karachi, Pakistan</div></div>
+        </div>
+      </div>
+      <div class="contact-form-card reveal">
+        <div class="form-title">Send a Message ✉️</div>
+        <div id="formSuccess" class="form-success">
+          <span class="success-icon">✅</span>
+          <h3>Message Sent!</h3>
+          <p>Thanks for reaching out. I'll get back to you within 24 hours.</p>
+        </div>
+        <div id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">First Name *</label>
+              <input type="text" id="fname" placeholder="Muhammad" />
+              <div class="form-error" id="fnameErr">Please enter your first name.</div>
+            </div>
+            <div class="form-group">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" placeholder="Ali" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="femail">Email Address *</label>
+            <input type="email" id="femail" placeholder="you@example.com" />
+            <div class="form-error" id="femailErr">Please enter a valid email address.</div>
+          </div>
+          <div class="form-group">
+            <label for="fsubject">Subject</label>
+            <select id="fsubject">
+              <option value="">Select a topic...</option>
+              <option>Automation Project</option>
+              <option>Web Development</option>
+              <option>AI Agent Development</option>
+              <option>Collaboration</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="fmessage">Message *</label>
+            <textarea id="fmessage" placeholder="Tell me about your project or idea..."></textarea>
+            <div class="form-error" id="fmsgErr">Please enter your message.</div>
+          </div>
+          <button class="form-submit" id="submitBtn" onclick="submitForm()">
+            <span id="btnText">Send Message</span>
+            <div class="spinner" id="spinner"></div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>Designed & Developed with ♥ by <span>Muhammad Behjat</span> · 2025</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
