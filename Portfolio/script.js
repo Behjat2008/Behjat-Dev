@@ -70,3 +70,15 @@
       document.getElementById('formSuccess').style.display = 'block';
     }, 1000);
   }
+
+  // Certificate lightbox
+  function openCert(thumb) {
+    const img = thumb.querySelector('img');
+    if (!img) return;
+    document.getElementById('certLightboxImg').src = img.src;
+    document.getElementById('certLightbox').classList.add('open');
+  }
+  function closeCert() {
+    document.getElementById('certLightbox').classList.remove('open');
+  }
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeCert(); });
